@@ -6,12 +6,13 @@ var currentDay = document.querySelector("#currentday")
 var currentTime = document.querySelector("#currenttime")
 var currentHour = moment().format("H");
 
+
 var grabDateTime = function () {
     currentDay.innerHTML = moment().format("dddd, MMMM do, YYYY");
     currentTime.innerHTML = moment().format("h:mm:ss a");
 };
 
-grabDateTime();
+setInterval(grabDateTime, 1);
 
 
 /*
@@ -37,5 +38,13 @@ if (time == currentHour) {
 
 });
 
+/*
+I have to find a way to save the text written in the textbox
+*/
   
-  saveInfo();
+$(".row").on("click", "button", function(){
+
+localStorage.setItem("textNine",$("#9").val());
+
+})
+
