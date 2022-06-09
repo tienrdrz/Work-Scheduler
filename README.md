@@ -14,4 +14,4 @@ https://tienrdrz.github.io/Work-Scheduler/
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/100370557/172746628-59e81b53-4260-4df6-835a-60152d3a60dc.png)
+![image](https://user-images.githubusercontent.com/100370557/172746739-8d607107-7eda-4297-aacf-665c5dec542d.png)
